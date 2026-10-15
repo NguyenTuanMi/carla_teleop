@@ -1,0 +1,12 @@
+carla_teleop:
+  ros__parameters:
+    role_name: hero
+    publish_rate: 60.0
+    throttle_rate: 1.3
+    brake_rate: 4.0
+    steer_rate: 1.0
+    steer_max: 0.7
+    coast_brake: 0.3
+    longitudinal_key_timeout: 0.48
+    steering_key_timeout: 0.60
+    toggle_debounce: 0.25
